@@ -213,7 +213,6 @@ input:checked + .slider:before {
 .contact-container {
     width: 25px;
     height: 20px;
-    /* outline: 1px solid white; */
     position: absolute;
     bottom: 6px;
     right: 10px;
