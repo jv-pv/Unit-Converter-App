@@ -1,4 +1,6 @@
-*, *::after, *::before {
+*,
+*::after,
+*::before {
     box-sizing: border-box;
 }
 
@@ -154,14 +156,14 @@ p {
     display: inline-block;
     width: 40px;
     height: 24px;
-  }
-  
+}
+
 .switch input {
     opacity: 0;
     width: 0;
     height: 0;
-  }
-  
+}
+
 .slider {
     position: absolute;
     cursor: pointer;
@@ -172,8 +174,8 @@ p {
     background-color: #ccc;
     -webkit-transition: .4s;
     transition: .4s;
-  }
-  
+}
+
 .slider:before {
     position: absolute;
     content: "";
@@ -184,33 +186,33 @@ p {
     background-color: white;
     -webkit-transition: .4s;
     transition: .4s;
-  }
-  
-input:checked + .slider {
+}
+
+input:checked+.slider {
     background-color: #2196F3;
-  }
-  
-input:focus + .slider {
+}
+
+input:focus+.slider {
     box-shadow: 0 0 1px #2196F3;
-  }
-  
-input:checked + .slider:before {
+}
+
+input:checked+.slider:before {
     -webkit-transform: translateX(16px);
     -ms-transform: translateX(16px);
     transform: translateX(16px);
-  }
-  
-  /* Rounded sliders */
+}
+
+/* Rounded sliders */
 
 .slider.round {
     border-radius: 34px;
-  }
-  
+}
+
 .slider.round:before {
     border-radius: 50%;
-  }
+}
 
-  .contact-container {
+.contact-container {
     width: 25px;
     height: 20px;
     position: absolute;
@@ -218,5 +220,4 @@ input:checked + .slider:before {
     right: 10px;
     background-image: url(./Icons/github-icon.svg);
     background-repeat: no-repeat;
-   }
-
+}
